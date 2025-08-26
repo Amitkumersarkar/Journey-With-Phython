@@ -40,3 +40,14 @@ m *= 10
 print(m)
 # Logical Operators (not,and,or)
 # example:
+print(not False)
+print(not True)
+
+a = 5
+b = 10
+print(not (a > b))
+
+value1 = True
+value2 = True
+print("AND operator :", value1 and value2)
+print("OR operator :", value1 or value2)

@@ -1,6 +1,5 @@
 # variable is container for a value (string,integer,float,boolean,none)
 # A variable behave as if it was the value it contains
-# different data type and example
 # strings
 first_pyCode = " Programmer"
 print(first_pyCode)

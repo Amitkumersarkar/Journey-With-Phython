@@ -7,4 +7,8 @@ info = {
     "Subject": ["CSE-231", "CSE-215"],
     "Topics": ("Dict", "Set")
 }
-print(info)
+# change key values
+info["Name"] = "Amrito"
+print(info["Name"])
+print(info["Age"])
+print(info["GPA"])

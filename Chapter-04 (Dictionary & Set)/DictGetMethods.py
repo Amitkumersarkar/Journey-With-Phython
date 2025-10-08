@@ -6,5 +6,5 @@ student = {
         "DBMS": 80
     }
 }
-# type_cast in list items methods
-print(list(student.items()))
+# print(student["Name"])
+print(student.get("Name"))

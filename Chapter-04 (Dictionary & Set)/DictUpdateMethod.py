@@ -6,5 +6,6 @@ student = {
         "DBMS": 80
     }
 }
-# type_cast in list items methods
-print(list(student.items()))
+new_Dict = {"City": "Dhaka", "Age": 23}
+student.update(new_Dict)
+print(student)

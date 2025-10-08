@@ -8,3 +8,7 @@ student = {
 }
 # print(student)
 print(student["Subjects"]["OS"])
+print(student.keys())
+# type_casting
+print(list(student.keys()))
+print(len(student))
